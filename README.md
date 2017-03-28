@@ -1,2 +1,3 @@
 # XHMM
-# input file: Exome.interval_list file includes all exomes in choromose 1 (in this example) 
+call copy number variation (CNV) from next-generation sequencing data, where exome
+capture was used (or targeted sequencing, more generally).
