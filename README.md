@@ -1,6 +1,7 @@
 XHMM
 Call copy number variation (CNV) from next-generation sequencing data, where exome
 capture was used (or targeted sequencing, more generally).
+
 ################################# Input ###########################################
 
 1) list of exome targets ("EXOME.interval_list", one column format of exome regions
