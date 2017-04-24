@@ -28,17 +28,18 @@ make
 # Installing / using the XHMM R scripts
 
 The XHMM R code is now available as an R library. There are still two options for using the scripts: 
-Newer (preferred) option
+
+# Newer (preferred) option
 
 Install the xhmmScripts package via one of the following methods (you only need to do this once):
-Compile it from the main XHMM source code downloaded from the Git repository above:
+1) Compile it from the main XHMM source code downloaded from the Git repository above:
 cd statgen-xhmm-*
 make R
 Then, run in R:
 install.packages(list.files(path=".", pattern="xhmmScripts_.+\\.tar\\.gz"), repos=NULL, type="source")
-Download and install the package from CRAN using the install.packages() command in R:
+2) Download and install the package from CRAN using the install.packages() command in R:
 install.packages("xhmmScripts")
-Download it from the xhmmScripts page at CRAN. Then, run in R:
+3) Download it from the xhmmScripts page at CRAN. Then, run in R:
 install.packages(list.files(path=".", pattern="xhmmScripts_.+\\.tar\\.gz"), repos=NULL, type="source")
 
 To use the R code, preface your R scripts with:
