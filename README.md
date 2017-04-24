@@ -8,8 +8,7 @@ Input files:
 2) exome sequencing reads ("DATA.RD.txt", matrix of all coverage means for all EXOME.interval_list regions of all samples, obtained from GATK pipeline)
 3) Markov model parameters ("params.txt", all 9 model parameters)
 
-XHMM was developed assuming compilation on Linux with gcc version 4.4. Please see the following link for original source code
-http://atgu.mgh.harvard.edu/xhmm/download.shtml
+Please see the following link for original source code: http://atgu.mgh.harvard.edu/xhmm/download.shtml
 
 # Installing XHMM
 
@@ -25,20 +24,23 @@ cd statgen-xhmm-*
 Run make to install the software (which starts by automatically compiling the included hmm++ library):
 make
 
-# Installing / using the XHMM R scripts
+# Installing/using the XHMM R scripts
 
 The XHMM R code is now available as an R library. There are still two options for using the scripts: 
 
 # Newer (preferred) option
 
 Install the xhmmScripts package via one of the following methods (you only need to do this once):
+
 1) Compile it from the main XHMM source code downloaded from the Git repository above:
 cd statgen-xhmm-*
 make R
 Then, run in R:
 install.packages(list.files(path=".", pattern="xhmmScripts_.+\\.tar\\.gz"), repos=NULL, type="source")
+
 2) Download and install the package from CRAN using the install.packages() command in R:
 install.packages("xhmmScripts")
+
 3) Download it from the xhmmScripts page at CRAN. Then, run in R:
 install.packages(list.files(path=".", pattern="xhmmScripts_.+\\.tar\\.gz"), repos=NULL, type="source")
 
