@@ -1,5 +1,7 @@
-# XHMM
-# Call copy number variation (CNV) from next-generation sequencing data, where exome capture was used (or targeted sequencing, more generally).
+# XHMM (eXome-Hidden Markov Model)
+# Discovery of copy number variations (CNVs) from exome read depth using XHMM (eXome-Hidden Markov Model)
+
+Call copy number variation (CNV) from next-generation sequencing data, where exome capture was used (or targeted sequencing, more generally).
 
 ################################# Input ###################################
 
