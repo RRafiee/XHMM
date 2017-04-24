@@ -11,7 +11,7 @@ Input files:
 XHMM was developed assuming compilation on Linux with gcc version 4.4. Please see the following link for original source code
 http://atgu.mgh.harvard.edu/xhmm/download.shtml
 
-Installing XHMM
+# Installing XHMM
 
 XHMM was developed assuming compilation on Linux with gcc version 4.4. Other requirements are the pthread and lapack C libraries. 
 
@@ -25,7 +25,7 @@ cd statgen-xhmm-*
 Run make to install the software (which starts by automatically compiling the included hmm++ library):
 make
 
-Installing / using the XHMM R scripts
+# Installing / using the XHMM R scripts
 
 The XHMM R code is now available as an R library. There are still two options for using the scripts: 
 Newer (preferred) option
